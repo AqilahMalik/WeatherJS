@@ -38,7 +38,7 @@ body {
   font-weight: 100;
   letter-spacing: 1px;
   line-height: 1;
-  font-family: "Merriweather", serif;
+  font-family: "Roboto Slab", serif;
 }
 
 .sub {
@@ -112,7 +112,6 @@ body {
 .weather__key {
   color: #f16051;
   border-bottom: solid 2px rgba(255, 255, 255, 0.06);
-  padding: 20px 0 20px 0;
   font-weight: 400;
 }
 
@@ -120,6 +119,7 @@ body {
   text-transform: capitalize;
   color: black;
   font-weight: 200;
+  font-family: "Roboto Slab", serif;
 }
 
 .entryPoint1 {
@@ -139,6 +139,7 @@ body {
   font-size: 15px;
   font-weight: normal;
   line-height: 16px;
+  font-family: "Roboto Slab", serif;
 }
 
 .currentDetail_value {
@@ -146,6 +147,7 @@ body {
   font-size: 16px;
   line-height: 22px;
   font-weight: normal;
+  font-family: "Roboto Slab", serif;
 }
 
 .button {
@@ -160,6 +162,7 @@ body {
   background-color: #f16051;
   color: #fff;
   font-weight: 100;
+  font-family: "Roboto Slab", serif;
 }
 
 input[type="text"] {
