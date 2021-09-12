@@ -37,7 +37,7 @@ function Forecast(props) {
             </h3>
             <div className="currentDetail_value">
               {f_maxtemp1}&deg;C <br />
-              {f_mintemp1}&deg;F <br />
+              {f_mintemp1}&deg;F <br /> <hr />
               {f_cond1}
             </div>
           </div>
@@ -50,7 +50,7 @@ function Forecast(props) {
             </h3>
             <div className="currentDetail_value">
               {f_maxtemp2}&deg;C <br />
-              {f_mintemp2}&deg;F <br />
+              {f_mintemp2}&deg;F <br /> <hr />
               {f_cond2}
             </div>
           </div>
@@ -63,7 +63,7 @@ function Forecast(props) {
             </h3>
             <div className="currentDetail_value">
               {f_maxtemp3}&deg;C <br />
-              {f_mintemp3}&deg;F <br />
+              {f_mintemp3}&deg;F <br /> <hr />
               {f_cond3}
             </div>
           </div>
@@ -76,7 +76,7 @@ function Forecast(props) {
             </h3>
             <div className="currentDetail_value">
               {f_maxtemp4}&deg;C <br />
-              {f_mintemp4}&deg;F <br />
+              {f_mintemp4}&deg;F <br /> <hr />
               {f_cond4}
             </div>
           </div>
@@ -89,7 +89,7 @@ function Forecast(props) {
             </h3>
             <div className="currentDetail_value">
               {f_maxtemp5}&deg;C <br />
-              {f_mintemp5}&deg;F <br />
+              {f_mintemp5}&deg;F <br /> <hr />
               {f_cond5}
             </div>
           </div>

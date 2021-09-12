@@ -95,13 +95,16 @@ body {
 .card_forecast {
   background: rgb(240, 240, 240, 0.5);
   box-shadow: inset 0px 0px 0px 2px #ffffff, 6px 6px 5px 0px #122fec;
-  width: 50%;
+  width: 20%;
   padding: 1em;
   font-weight: bold;
   color: #000000;
   flex-wrap: nowrap;
   align-content: stretch;
   align-items: center;
+  font-size: 23px;
+  font-weight: bold;
+  font-family: Merriweather, serif;
 }
 
 .deco_h3 {
@@ -149,8 +152,7 @@ body {
 
 .currentDetail_value {
   text-transform: none;
-  font-size: 16px;
-  line-height: 22px;
+  font-size: 21px;
   font-weight: normal;
   font-family: Merriweather, serif;
 }
