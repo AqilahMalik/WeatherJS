@@ -76,7 +76,7 @@ function ForeCast_Body() {
 
   return (
     <div>
-      <h4>Search for Location</h4>
+      <h4>Search weather hourly for location</h4>
       <form onSubmit={search}>
         <input
           type="text"

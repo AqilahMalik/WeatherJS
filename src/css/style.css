@@ -9,11 +9,6 @@ body {
   border: 1px dashed #000;
 }
 
-.wrapper {
-  text-align: center;
-  width: 40%;
-}
-
 .wrapper_2 {
   display: flex;
   align-items: center;
@@ -54,8 +49,8 @@ body {
 .card2 {
   height: auto;
   justify-content: space-around;
-  background: rgb(240, 240, 240, 0.5);
-  box-shadow: inset 0px 0px 0px 2px #ffffff, 6px 6px 5px 0px #23294e;
+  background: #c3b5b54d;
+  box-shadow: inset 0px 0px 0px 2px #d3d1de52, 6px 6px 5px 0px #23294e;
   margin: 50px 50px;
   padding: 1em;
   font-weight: bold;
