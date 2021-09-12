@@ -1,5 +1,5 @@
 body {
-  font-family: "Times New Roman", serif;
+  font-family: "Roboto Slab", serif;
   text-align: center;
   background: url("backTitle2.jpg");
 }
@@ -23,15 +23,16 @@ body {
 }
 
 .title__title {
-  margin: 30px 40px 20px 40px;
+  margin: 20px 30px 10px 30px;
   text-align: center;
-  font-size: 40px;
+  font-size: 30px;
   font-weight: bolder;
   letter-spacing: 1px;
   font-family: "Roboto Slab", serif;
 }
 
 .title__subtitle {
+  font-size: 25px;
   font-style: italic;
   text-align: center;
   font-weight: 100;
