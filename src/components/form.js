@@ -42,11 +42,11 @@ function CurrentWeather() {
   function search(event) {
     event.preventDefault();
 
-    let apiURL = `https://api.openweathermap.org/data/2.5/weather`;
-    let apiKey = "9e6604138c8593ca600a9243fc791e27";
-    let querString = `?q=${place}&appid=${apiKey}&units=metric`;
+    let weather_url = `https://api.openweathermap.org/data/2.5/weather`;
+    let weather_key = process.env.WEATHER_API_KEY;
+    let querString = `?q=${place}&appid=${weather_key}&units=metric`;
 
-    fetch(apiURL + querString, { method: "GET" })
+    fetch(weather_url + querString, { method: "GET" })
       .then(function (res) {
         if (!res.ok) {
           let msg = `Place ${res.statusText} `;

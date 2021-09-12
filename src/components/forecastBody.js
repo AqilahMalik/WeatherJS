@@ -57,11 +57,11 @@ function ForeCast_Body() {
   function search(event) {
     event.preventDefault();
 
-    let apiURL = `https://api.weatherapi.com/v1/forecast.json`;
-    let apiKey = "18b478baa1ae4179bdf84136210409";
-    let querString = `?key=${apiKey}&q=${placeName}&aqi=no`;
+    let forecastApiURL = `https://api.weatherapi.com/v1/forecast.json`;
+    let forecastApiKey = process.env.FORECAST_API_KEY;
+    let querString = `?key=${forecastApiKey}&q=${placeName}&aqi=no`;
 
-    fetch(apiURL + querString, { method: "GET" })
+    fetch(forecastApiURL + querString, { method: "GET" })
       .then(function (res) {
         if (!res.ok) {
           let msg = `Place ${res.statusText} `;
