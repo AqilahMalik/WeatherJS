@@ -89,14 +89,15 @@ body {
 }
 
 .card_forecast {
-  height: auto;
-  justify-content: space-around;
   background: rgb(240, 240, 240, 0.5);
   box-shadow: inset 0px 0px 0px 2px #ffffff, 6px 6px 5px 0px #122fec;
-  margin: 25px;
+  width: 50%;
   padding: 1em;
   font-weight: bold;
   color: #000000;
+  flex-wrap: nowrap;
+  align-content: stretch;
+  align-items: center;
 }
 
 .deco_h3 {
@@ -124,10 +125,8 @@ body {
 
 .entryPoint2 {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   flex-wrap: wrap;
-  width: auto;
-  height: auto;
 }
 
 .currentDetail_title {
