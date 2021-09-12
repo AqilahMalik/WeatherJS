@@ -1,6 +1,6 @@
 const Title = require("./title");
 const CurrentWeather = require("./form");
-// const ForeCast_Body = require("./forecastBody");
+const ForeCast_Body = require("./forecastBody");
 
 function App() {
   return (
@@ -13,7 +13,9 @@ function App() {
           </div>
         </div>
         <div className="wrapper">
-          <div className="card2">{/* <ForeCast_Body /> */}</div>
+          <div className="card2">
+            <ForeCast_Body />
+          </div>
         </div>
       </div>
     </main>

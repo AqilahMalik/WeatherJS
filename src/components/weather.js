@@ -76,7 +76,7 @@ function Weather(props) {
         <div className="entryPoint1">
           <div className="card_weather">
             <h3>
-              <i className={`wi wi-windy`}></i>
+              <i className={`wi wi-windy display-5`}></i>
             </h3>
             WIND
             <div className="currentDetail_value">{wind} km/h</div>
@@ -84,7 +84,7 @@ function Weather(props) {
 
           <div className="card_weather">
             <h3>
-              <i className={`wi wi-humidity display-1 `}></i>
+              <i className={`wi wi-humidity display-5`}></i>
             </h3>
             HUMIDITY
             <div className="currentDetail_value">{humidity} %</div>
@@ -92,7 +92,7 @@ function Weather(props) {
 
           <div className="card_weather">
             <h3>
-              <i className={`wi wi-fog display-1 `}></i>
+              <i className={`wi wi-fog display-5 `}></i>
             </h3>
             VISIBILITY
             <div className="currentDetail_value"> {visibility} km </div>
@@ -100,7 +100,7 @@ function Weather(props) {
 
           <div className="card_weather">
             <h3>
-              <i className={`wi wi-thermometer display-1 `}></i>
+              <i className={`wi wi-thermometer display-5 `}></i>
             </h3>
             PRESSURE
             <div className="currentDetail_value"> {pressure} hPa </div>
