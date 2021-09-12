@@ -68,7 +68,6 @@ body {
   justify-content: space-around;
   background: #c3b5b54d;
   box-shadow: inset 0px 0px 0px 2px #d3d1de52, 6px 6px 5px 0px #23294e;
-  margin: 50px 50px;
   padding: 1em;
   font-weight: bold;
   color: #000000;
@@ -107,6 +106,7 @@ body {
 .deco_h3 {
   text-decoration: underline;
   font-family: Merriweather, serif;
+  font: bold;
 }
 
 .weather__key {
