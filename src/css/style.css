@@ -41,6 +41,13 @@ body {
   font-family: "Merriweather", serif;
 }
 
+.sub {
+  font-size: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-family: "Merriweather", serif;
+}
+
 .card1 {
   height: auto;
   justify-content: space-around;
