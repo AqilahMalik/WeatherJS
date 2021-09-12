@@ -94,7 +94,7 @@ body {
 
 .card_forecast {
   background: rgb(240, 240, 240, 0.5);
-  box-shadow: inset 0px 0px 0px 2px #ffffff, 6px 6px 5px 0px #122fec;
+  box-shadow: inset 0px 0px 0px 2px #beb5ce, 6px 6px 5px 0px #122fec;
   width: 20%;
   padding: 1em;
   font-weight: bold;
