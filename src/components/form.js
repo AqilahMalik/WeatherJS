@@ -64,6 +64,7 @@ function CurrentWeather() {
       <h4 className="sub4">Search for Location</h4>
       <form onSubmit={search}>
         <input
+          className="sub4"
           type="text"
           placeholder="City"
           value={place}

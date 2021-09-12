@@ -79,6 +79,7 @@ function ForeCast_Body() {
       <h4 className="sub4">Search Weather Hourly</h4>
       <form onSubmit={search}>
         <input
+          className="sub4"
           type="text"
           placeholder="City"
           value={placeName}
