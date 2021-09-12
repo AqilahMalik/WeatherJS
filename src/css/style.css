@@ -1,5 +1,4 @@
 body {
-  font-family: "Roboto Slab", serif;
   text-align: center;
   background: url("backTitle2.jpg");
 }
@@ -45,12 +44,12 @@ body {
   font-size: 20px;
   margin-bottom: 10px;
   text-align: center;
-  font-family: "Merriweather", serif;
+  font-family: Merriweather, serif;
 }
 
 .sub4 {
   text-align: center;
-  font-family: "Merriweather", serif;
+  font-family: Merriweather, serif;
 }
 
 .card1 {
@@ -119,7 +118,7 @@ body {
   text-transform: capitalize;
   color: black;
   font-weight: 200;
-  font-family: "Roboto Slab", serif;
+  font-family: Merriweather, serif;
 }
 
 .entryPoint1 {
@@ -139,7 +138,7 @@ body {
   font-size: 15px;
   font-weight: normal;
   line-height: 16px;
-  font-family: "Roboto Slab", serif;
+  font-family: Merriweather, serif;
 }
 
 .currentDetail_value {
@@ -147,7 +146,7 @@ body {
   font-size: 16px;
   line-height: 22px;
   font-weight: normal;
-  font-family: "Roboto Slab", serif;
+  font-family: Merriweather, serif;
 }
 
 .button {
@@ -162,11 +161,12 @@ body {
   background-color: #f16051;
   color: #fff;
   font-weight: 100;
-  font-family: "Roboto Slab", serif;
+  font-family: Merriweather, serif;
 }
 
 input[type="text"] {
   background-color: transparent;
+  font-family: Merriweather, serif;
   border: 0;
   border-bottom: solid 1px #f16051;
   width: 30%;
