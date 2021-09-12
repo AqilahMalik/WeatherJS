@@ -48,6 +48,11 @@ body {
   font-family: "Merriweather", serif;
 }
 
+.sub4 {
+  text-align: center;
+  font-family: "Merriweather", serif;
+}
+
 .card1 {
   height: auto;
   justify-content: space-around;

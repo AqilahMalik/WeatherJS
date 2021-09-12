@@ -61,7 +61,7 @@ function CurrentWeather() {
 
   return (
     <div>
-      <h4>Search for Location</h4>
+      <h4 className="sub4">Search for Location</h4>
       <form onSubmit={search}>
         <input
           type="text"
