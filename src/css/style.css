@@ -1,5 +1,5 @@
 body {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: "Times New Roman", serif;
   text-align: center;
   background: url("backTitle2.jpg");
 }
@@ -24,6 +24,7 @@ body {
 
 .title__title {
   margin: 30px 40px 20px 40px;
+  text-align: center;
   font-size: 50px;
   font-weight: bolder;
   letter-spacing: 1px;
@@ -32,6 +33,7 @@ body {
 
 .title__subtitle {
   font-style: italic;
+  text-align: center;
   font-weight: 100;
   letter-spacing: 1px;
   line-height: 1;
