@@ -76,6 +76,7 @@ body {
   flex-wrap: wrap;
   justify-content: center;
 }
+
 .card_weather {
   height: auto;
   background: rgb(240, 240, 240, 0.5);
@@ -89,7 +90,7 @@ body {
 }
 
 .card_forecast {
-  height: 50%;
+  height: auto;
   justify-content: space-around;
   background: rgb(240, 240, 240, 0.5);
   box-shadow: inset 0px 0px 0px 2px #ffffff, 6px 6px 5px 0px #122fec;
