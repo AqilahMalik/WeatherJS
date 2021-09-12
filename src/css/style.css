@@ -107,7 +107,11 @@ body {
 .deco_h3 {
   text-decoration: underline;
   font-family: Merriweather, serif;
-  font: bold;
+  font-weight: bold;
+}
+
+.wi {
+  color: rgb(67, 9, 78);
 }
 
 .weather__key {

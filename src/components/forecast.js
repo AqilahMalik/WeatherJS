@@ -85,7 +85,7 @@ function Forecast(props) {
             {" "}
             07:00 am <br /> <hr />
             <h3>
-              <i className={`wi wi-time-7 display-5`}></i>
+              <i className={`wi wi-time-7 display-5`} color="blue"></i>
             </h3>
             <div className="currentDetail_value">
               {f_maxtemp5}&deg;C <br />
