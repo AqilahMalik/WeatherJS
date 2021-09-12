@@ -31,8 +31,10 @@ function Forecast(props) {
         </h2>
         <div className="entryPoint2">
           <div className="card_forecast">
-            {" "}
             10:00 am <br /> <hr />
+            <h3>
+              <i className={`wi wi-time-10 display-5`}></i>
+            </h3>
             <div className="currentDetail_value">
               {f_maxtemp1}&deg;C <br />
               {f_mintemp1}&deg;F <br />
@@ -42,7 +44,10 @@ function Forecast(props) {
 
           <div className="card_forecast">
             {" "}
-            04:00 pm <br /> <hr />
+            16:00 pm <br /> <hr />
+            <h3>
+              <i className={`wi wi-time-4 display-5`}></i>
+            </h3>
             <div className="currentDetail_value">
               {f_maxtemp2}&deg;C <br />
               {f_mintemp2}&deg;F <br />
@@ -52,7 +57,10 @@ function Forecast(props) {
 
           <div className="card_forecast">
             {" "}
-            10:00 pm <br /> <hr />
+            22:00 pm <br /> <hr />
+            <h3>
+              <i className={`wi wi-time-10 display-5`}></i>
+            </h3>
             <div className="currentDetail_value">
               {f_maxtemp3}&deg;C <br />
               {f_mintemp3}&deg;F <br />
@@ -63,6 +71,9 @@ function Forecast(props) {
           <div className="card_forecast">
             {" "}
             04:00 am <br /> <hr />
+            <h3>
+              <i className={`wi wi-time-4 display-5`}></i>
+            </h3>
             <div className="currentDetail_value">
               {f_maxtemp4}&deg;C <br />
               {f_mintemp4}&deg;F <br />
@@ -73,6 +84,9 @@ function Forecast(props) {
           <div className="card_forecast">
             {" "}
             07:00 am <br /> <hr />
+            <h3>
+              <i className={`wi wi-time-7 display-5`}></i>
+            </h3>
             <div className="currentDetail_value">
               {f_maxtemp5}&deg;C <br />
               {f_mintemp5}&deg;F <br />
