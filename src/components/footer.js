@@ -1,6 +1,6 @@
 function Footer() {
   return (
-    <div>
+    <div className="wrapper2">
       <br />
       <br />
       <h1 className="title_footer">Get the weather </h1>
