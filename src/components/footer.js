@@ -79,8 +79,6 @@ function Footer() {
           <div className="myDIV">
             <i className={`wi wi-windy display-5`}></i>
           </div>
-          <div className="hide">Windy!</div>
-          <br />
         </h3>
         <br />
         <h3>
@@ -88,8 +86,6 @@ function Footer() {
           <div className="myDIV">
             <i className={`wi wi-celsius display-5`}></i>
           </div>
-          <div className="hide">Temperatue</div>
-          <br />
         </h3>
         <br />
         <h3>
@@ -97,8 +93,6 @@ function Footer() {
           <div className="myDIV">
             <i className={`wi wi-earthquake display-5 `}></i>
           </div>
-          <div className="hide">Eartquake!</div>
-          <br />
         </h3>
         <br />
         <h3>
@@ -106,17 +100,14 @@ function Footer() {
           <div className="myDIV">
             <i className={`wi wi-thermometer display-5 `}></i>
           </div>
-          <div className="hide">Thermometer</div>
-          <br />
         </h3>
         <br />
         <h3>
           <br />
+
           <div className="myDIV">
             <i className={`wi wi-smoke display-5`}></i>
           </div>
-          <div className="hide">Smoke!</div>
-          <br />
         </h3>
         <br />
       </div>
