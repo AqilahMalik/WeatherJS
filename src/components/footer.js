@@ -1,57 +1,48 @@
 function Footer() {
   return (
-    <div className="wrapper2">
+    <div className="wrapper_footer">
       <br />
       <br />
-      <h1 className="title_footer">Get the weather </h1>
-      <div className="footer">
-        <h3>
-          <br />
-          <i className={`wi wi-windy display-5`}></i>
-        </h3>
 
+      <h3>
         <br />
-        <h3>
-          <br />
-          <i className={`wi wi-humidity display-5`}></i>
-        </h3>
-
+        <i className={`wi wi-windy display-5`}></i>
+      </h3>
+      <br />
+      <h3>
         <br />
-        <h3>
-          <br />
-          <i className={`wi wi-fog display-5 `}></i>
-        </h3>
-
+        <i className={`wi wi-humidity display-5`}></i>
+      </h3>
+      <br />
+      <h3>
         <br />
-        <h3>
-          <br />
-          <i className={`wi wi-thermometer display-5 `}></i>
-        </h3>
-
+        <i className={`wi wi-fog display-5 `}></i>
+      </h3>
+      <br />
+      <h3>
         <br />
-        <h3>
-          <br />
-          <i className={`wi wi-windy display-5`}></i>
-        </h3>
-
+        <i className={`wi wi-thermometer display-5 `}></i>
+      </h3>
+      <br />
+      <h3>
         <br />
-        <h3>
-          <br />
-          <i className={`wi wi-humidity display-5`}></i>
-        </h3>
-
+        <i className={`wi wi-windy display-5`}></i>
+      </h3>
+      <br />
+      <h3>
         <br />
-        <h3>
-          <br />
-          <i className={`wi wi-fog display-5 `}></i>
-        </h3>
-
+        <i className={`wi wi-humidity display-5`}></i>
+      </h3>
+      <br />
+      <h3>
         <br />
-        <h3>
-          <br />
-          <i className={`wi wi-thermometer display-5 `}></i>
-        </h3>
-      </div>
+        <i className={`wi wi-fog display-5 `}></i>
+      </h3>
+      <br />
+      <h3>
+        <br />
+        <i className={`wi wi-thermometer display-5 `}></i>
+      </h3>
     </div>
   );
 }

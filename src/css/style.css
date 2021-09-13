@@ -211,6 +211,16 @@ input[type="text"] {
   font-family: "Roboto Slab", serif;
 }
 
+.wrapper_footer {
+  text-align: center;
+  display: inline-flex;
+  width: 60%;
+  margin-bottom: 50px;
+  align-items: baseline;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
 .App {
   display: -webkit-box;
   display: -ms-flexbox;
