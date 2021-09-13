@@ -114,6 +114,10 @@ function Footer() {
           <div className="hide">Smoke!</div>
         </h3>
         <br />
+        <div class="tooltip">
+          Hover over me
+          <span class="tooltiptext">Tooltip text</span>
+        </div>
       </div>
     </main>
   );

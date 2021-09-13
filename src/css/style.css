@@ -202,7 +202,6 @@ input[type="text"] {
   align-items: baseline;
   flex-direction: row;
   justify-content: space-evenly;
-  margin: 20px 30px 10px 30px;
   text-align: center;
   font-size: 30px;
   font-weight: bolder;
