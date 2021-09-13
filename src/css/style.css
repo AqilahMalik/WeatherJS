@@ -190,7 +190,6 @@ input[type="text"] {
   justify-content: center;
   display: inline-flex;
   width: 100%;
-  margin-left: 18%;
   align-items: baseline;
   flex-direction: row;
   justify-content: space-evenly;
@@ -215,6 +214,7 @@ input[type="text"] {
   text-align: center;
   display: inline-flex;
   width: 65%;
+  margin-left: 18%;
   align-items: baseline;
   flex-direction: row;
   justify-content: space-evenly;
