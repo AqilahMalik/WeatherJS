@@ -226,7 +226,7 @@ input[type="text"] {
 
 .myDIV:hover + .hide {
   font-size: 20px;
-  display: contents;
+  display: block;
   color: rgb(5, 46, 73);
   font-weight: bold;
   margin: 40px;
