@@ -220,6 +220,18 @@ input[type="text"] {
   justify-content: space-evenly;
 }
 
+.hide {
+  display: none;
+  font-family: Merriweather, serif;
+}
+
+.myDIV:hover + .hide {
+  font-size: 20px;
+  display: contents;
+  color: rgb(5, 46, 73);
+  font-weight: bold;
+}
+
 .App {
   display: -webkit-box;
   display: -ms-flexbox;
