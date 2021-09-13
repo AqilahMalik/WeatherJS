@@ -24,8 +24,8 @@ function Forecast(props) {
     return (
       <div>
         <h2 className="py-2">
+          <h3 className="deco_h3">Hourly Weather</h3>
           <span className="weather__value">
-            <h3 className="deco_h3">Hourly Weather</h3>
             {f_city}, {f_country} <br /> {f_date}
           </span>
         </h2>
