@@ -83,18 +83,16 @@ body {
 .card_weather {
   height: auto;
   background: rgb(240, 240, 240, 0.5);
-
   border-radius: 5px;
   text-align: center;
-  width: 35%;
-
+  width: 25%;
   font-weight: bold;
   color: #000000;
 }
 
 .card_forecast {
   background: rgb(240, 240, 240, 0.5);
-  box-shadow: inset 0px 0px 0px 2px #beb5ce, 6px 6px 5px 0px #122fec;
+  box-shadow: inset 0px 0px 0px 1px #beb5ce, 0px 1px 5px 0px #122fec;
   width: 20%;
   padding: 1em;
   font-weight: bold;
@@ -134,7 +132,6 @@ body {
 .entryPoint1 {
   display: flex;
   justify-content: space-around;
-  flex-wrap: wrap;
 }
 
 .entryPoint2 {

@@ -59,7 +59,7 @@ function Weather(props) {
             {city}, {country}
           </span>
         </h3>
-        <h3 className="py-4">
+        <h3>
           <i className={`wi ${get_WeatherIcon(weaId)} display-3`}></i>
         </h3>
         <h2 className="py-2">
