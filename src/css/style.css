@@ -185,6 +185,31 @@ input[type="text"] {
   font-size: 20px;
 }
 
+.footer {
+  display: inline-flex;
+  width: 60%;
+  margin-bottom: 50px;
+  align-items: baseline;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.title_footer {
+  display: inline-flex;
+  width: 60%;
+  bottom: 50px;
+  align-items: baseline;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 20px 30px 10px 30px;
+  position: sticky;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bolder;
+  letter-spacing: 1px;
+  font-family: "Roboto Slab", serif;
+}
+
 .App {
   display: -webkit-box;
   display: -ms-flexbox;

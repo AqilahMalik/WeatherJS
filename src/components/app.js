@@ -1,6 +1,7 @@
 const Title = require("./title");
 const CurrentWeather = require("./form");
 const ForeCast_Body = require("./forecastBody");
+const Footer = require("./footer");
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           </div>
         </div>
       </div>
+      <Footer />
     </main>
   );
 }
