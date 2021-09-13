@@ -190,7 +190,7 @@ input[type="text"] {
   justify-content: center;
   display: inline-flex;
   width: 100%;
-  margin-bottom: 20px;
+  margin-left: 18%;
   align-items: baseline;
   flex-direction: row;
   justify-content: space-evenly;
@@ -214,8 +214,7 @@ input[type="text"] {
 .wrapper_footer {
   text-align: center;
   display: inline-flex;
-  width: 100%;
-  margin-bottom: 50px;
+  width: 65%;
   align-items: baseline;
   flex-direction: row;
   justify-content: space-evenly;
