@@ -187,6 +187,7 @@ input[type="text"] {
 
 .footer {
   text-align: center;
+  justify-content: center;
   display: inline-flex;
   width: 60%;
   margin-bottom: 50px;
@@ -203,7 +204,6 @@ input[type="text"] {
   flex-direction: row;
   justify-content: space-evenly;
   margin: 20px 30px 10px 30px;
-  position: sticky;
   text-align: center;
   font-size: 30px;
   font-weight: bolder;
