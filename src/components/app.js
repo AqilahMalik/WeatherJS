@@ -21,10 +21,8 @@ function App() {
       </div>
       <br />
       <br />
-      <div className="card1">
-        <h3 className="title_footer"> Get the weather </h3>
-        <Footer />
-      </div>
+      <h3 className="title_footer"> Get the weather </h3>
+      <Footer />
     </main>
   );
 }
