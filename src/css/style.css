@@ -83,11 +83,11 @@ body {
 .card_weather {
   height: auto;
   background: rgb(240, 240, 240, 0.5);
-  box-shadow: inset 0px 0px 0px 2px #ffffff, 6px 6px 5px 0px #23294e;
+
   border-radius: 5px;
   text-align: center;
   width: 35%;
-  margin: 20px;
+
   font-weight: bold;
   color: #000000;
 }

@@ -54,14 +54,14 @@ function Weather(props) {
     return (
       <div>
         <h3 className="deco_h3">Current Weather</h3>
-        <h2 className="py-2">
+        <h3 className="py-2">
           <span className="weather__value">
             {city}, {country}
           </span>
-        </h2>
-        <h1 className="py-4">
-          <i className={`wi ${get_WeatherIcon(weaId)} display-1`}></i>
-        </h1>
+        </h3>
+        <h3 className="py-4">
+          <i className={`wi ${get_WeatherIcon(weaId)} display-3`}></i>
+        </h3>
         <h2 className="py-2">
           <span className="weather__value">{temperature}&deg;C </span>
         </h2>
@@ -71,7 +71,6 @@ function Weather(props) {
         <h3>
           <span className="weather__value"> {description} </span>
         </h3>
-        <br />
 
         <div className="entryPoint1">
           <div className="card_weather">
