@@ -6,7 +6,6 @@ function Footer() {
         <br />
 
         <h3>
-          <br />
           <div className="myDIV">
             <i className={`wi wi-snowflake-cold display-5`}></i>
           </div>
@@ -14,7 +13,6 @@ function Footer() {
         </h3>
         <br />
         <h3>
-          <br />
           <div className="myDIV">
             <i className={`wi wi-lightning display-5`}></i>
           </div>
@@ -22,7 +20,6 @@ function Footer() {
         </h3>
         <br />
         <h3>
-          <br />
           <div className="myDIV">
             <i className={`wi wi-flood display-5 `}></i>
           </div>
@@ -30,7 +27,6 @@ function Footer() {
         </h3>
         <br />
         <h3>
-          <br />
           <div className="myDIV">
             <i className={`wi wi-stars display-5 `}></i>
           </div>
@@ -38,7 +34,6 @@ function Footer() {
         </h3>
         <br />
         <h3>
-          <br />
           <div className="myDIV">
             <i className={`wi wi-time-11 display-5`}></i>
           </div>
@@ -46,7 +41,6 @@ function Footer() {
         </h3>
         <br />
         <h3>
-          <br />
           <div className="myDIV">
             <i className={`wi wi-humidity display-5`}></i>
           </div>
@@ -54,7 +48,6 @@ function Footer() {
         </h3>
         <br />
         <h3>
-          <br />
           <div className="myDIV">
             <i className={`wi wi-fog display-5 `}></i>
           </div>
@@ -62,7 +55,6 @@ function Footer() {
         </h3>
         <br />
         <h3>
-          <br />
           <div className="myDIV">
             <i className={`wi wi-night-alt-rain-wind display-5 `}></i>
           </div>
