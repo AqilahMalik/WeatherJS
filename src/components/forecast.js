@@ -23,12 +23,12 @@ function Forecast(props) {
   if (f_city && f_country) {
     return (
       <div>
-        <h2 className="py-2">
+        <h3 className="py-2">
           <h3 className="deco_h3">Hourly Weather</h3>
           <span className="weather__value">
             {f_city}, {f_country} <br /> {f_date}
           </span>
-        </h2>
+        </h3>
         <div className="entryPoint2">
           <div className="card_forecast">
             10:00 am <br /> <hr />
